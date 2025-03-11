@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+   <table class="table table-dark">
+<thead id="tHead">
+    <th>#</th>
+    <th>First Name</th>
+    <th>Last Name</th> 
+    <th>Age</th>
+</thead>
+<!-- an id is used to identify the element in the DOM (document object model) -->
+<!-- a class is used to identify the element in CSS -->
+<tbody id="tBody">
+  
+</tbody>
+   </table> 
+
+   <form>
+    <div>
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" />
+    </div>
+    <div>
+
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName"/>
+    </div>
+    <div>
+        <label for="age" class="form-label">Age</label>
+        <input type="text" class="form-control" id="age"/>
+    </div>
+    <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
+   </form>
+   <script src="./script.js"></script>
+   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
